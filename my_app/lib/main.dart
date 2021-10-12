@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'screens/home.dart';
+import 'screens/login.dart';
 
 void main() => runApp(MyApp());
 
@@ -14,7 +15,8 @@ class MyApp extends StatelessWidget {
           //primarySwatch: Colors.red, // Can overwrite the color
         ),
         routes: {
-          "/": (context) => Home(),
+          "/": (context) => Login(), // Default Root.
+          "/login": (context) => Login(),
         });
   }
 }
