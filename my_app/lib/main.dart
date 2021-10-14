@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        themeMode: ThemeMode.dark,
+        themeMode: ThemeMode.light,
         theme: ThemeData(primarySwatch: Colors.deepPurple),
         darkTheme: ThemeData(
           brightness: Brightness.dark,
