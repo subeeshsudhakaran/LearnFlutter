@@ -11,7 +11,7 @@ class Login extends StatelessWidget {
         ),
         body: Center(
           child: Container(
-            child: Text('This is LogIn Page'),
+            child: Text('This is login Page'),
           ),
         ),
       ),
