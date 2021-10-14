@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
 import 'screens/home.dart';
 import 'screens/login.dart';
 
@@ -9,7 +10,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         themeMode: ThemeMode.light,
-        theme: ThemeData(primarySwatch: Colors.deepPurple),
+        theme: ThemeData(
+          primarySwatch: Colors.deepPurple,
+          fontFamily: GoogleFonts.poppins().fontFamily,
+        ),
         darkTheme: ThemeData(
           brightness: Brightness.dark,
           //primarySwatch: Colors.red, // Can overwrite the color
