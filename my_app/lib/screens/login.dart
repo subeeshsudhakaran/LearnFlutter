@@ -10,12 +10,18 @@ class Login extends StatelessWidget {
             "assets/images/logIn.png",
             fit: BoxFit.cover,
           ),
+          const SizedBox(
+            height: 20.0,
+          ),
           const Text(
             "Welcome",
             style: TextStyle(
               fontSize: 22,
               fontWeight: FontWeight.bold,
             ),
+          ),
+          const SizedBox(
+            height: 20.0,
           ),
         ],
       ),
