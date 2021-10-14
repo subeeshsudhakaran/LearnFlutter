@@ -7,7 +7,7 @@ class Login extends StatelessWidget {
       child: Column(
         children: [
           const SizedBox(
-            height: 20.0,
+            height: 100.0,
           ),
           Image.asset(
             "assets/images/logIn.png",
@@ -17,7 +17,7 @@ class Login extends StatelessWidget {
             height: 20.0,
           ),
           const Text(
-            "Welcome",
+            "Welcome MPL",
             style: TextStyle(
               fontSize: 28,
               fontWeight: FontWeight.bold,
@@ -50,6 +50,13 @@ class Login extends StatelessWidget {
           const SizedBox(
             height: 20.0,
           ),
+          ElevatedButton(
+            child: Text("Log In"),
+            style: TextButton.styleFrom(),
+            onPressed: () {
+              print("Welcome to MPL");
+            },
+          )
         ],
       ),
     );
