@@ -17,7 +17,7 @@ class Login extends StatelessWidget {
             height: 20.0,
           ),
           const Text(
-            "Welcome MPL",
+            "Welcome New MPL",
             style: TextStyle(
               fontSize: 28,
               fontWeight: FontWeight.bold,
