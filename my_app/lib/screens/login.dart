@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:my_app/utilities/routes.dart';
 
 class Login extends StatelessWidget {
   @override
@@ -25,7 +26,7 @@ class Login extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 300.0,
+              height: 20.0,
             ),
             Padding(
               padding:
@@ -55,7 +56,7 @@ class Login extends StatelessWidget {
               child: Text("Log In"),
               style: TextButton.styleFrom(),
               onPressed: () {
-                print("Welcome to MPL");
+                Navigator.pushNamed(context, MyRoute.homeRoute);
               },
             )
           ],
