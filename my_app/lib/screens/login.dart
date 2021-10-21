@@ -3,8 +3,8 @@ import 'package:flutter/material.dart';
 class Login extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Material(
+    return Material(
+      child: SingleChildScrollView(
         child: Column(
           children: [
             const SizedBox(
@@ -25,7 +25,7 @@ class Login extends StatelessWidget {
               ),
             ),
             const SizedBox(
-              height: 250.0,
+              height: 300.0,
             ),
             Padding(
               padding:
