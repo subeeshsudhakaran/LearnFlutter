@@ -15,6 +15,7 @@ class MyApp extends StatelessWidget {
           primarySwatch: Colors.deepPurple,
           fontFamily: GoogleFonts.poppins().fontFamily,
         ),
+        debugShowCheckedModeBanner: false,
         darkTheme: ThemeData(
           brightness: Brightness.dark,
           //primarySwatch: Colors.red, // Can overwrite the color
